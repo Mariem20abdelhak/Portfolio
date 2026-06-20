@@ -76,5 +76,5 @@ All content (projects, experience, skills) lives in `api/index.py` in plain Pyth
 
 ## Contact
 
-**Mariem Abdelhak** — mariemabdelhak5@gmail.com  
+**Mariem Abdelhak** — mariem-abdelhak@outlook.com 
 [GitHub](https://github.com/Mariem20abdelhak) · [LinkedIn](https://linkedin.com/in/abdelhak-mariem) · [Portfolio](https://portfolio-website-mariem.vercel.app/)
