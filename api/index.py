@@ -1,10 +1,13 @@
 from flask import Flask, render_template, jsonify
 import os
+# Get the absolute path of the directory containing api/index.py, then go up one level to the root
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
 app = Flask(
     __name__,
-    template_folder=os.path.join(os.path.dirname(__file__), '..', 'templates'),
-    static_folder=os.path.join(os.path.dirname(__file__), '..', 'static')
+    template_folder=os.path.join(BASE_DIR, 'templates'),
+    static_folder=os.path.join(BASE_DIR, 'static'),
+    static_url_path='/static' # Explicitly tells Flask to match your vercel.json static route
 )
 
 PROJECTS = [
