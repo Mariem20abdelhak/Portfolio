@@ -22,6 +22,7 @@ PROJECTS = [
         "live": None,
         "highlight": "Security-hardened with protection against common web attacks"
     },
+    
     {
         "id": 2,
         "title": "Dynamic E-Commerce Platform",
@@ -65,6 +66,17 @@ PROJECTS = [
         "github": "https://github.com/Mariem20abdelhak",
         "live": None,
         "highlight": "Reduced production downtime through automation"
+    },
+    {
+        "id": 6,
+        "title": "IT asset manager",
+        "category": "fullstack",
+        "tag": "Full-Stack",
+        "description": "signed and developed a full IT asset management system using the Odoo framework.",
+        "tech": ["Python", "Odoo", "PostgreSQL", "XML"],
+        "github": "https://github.com/Mariem20abdelhak/Odoo-it-asset-manager",
+        "live": None,
+        "highlight": "Implemented Python backend logic, XML views, and automated workflows for asset status updates and alerts."
     },
 ]
 
